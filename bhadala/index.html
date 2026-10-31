@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bhadala: Free South African Payroll Software | Thee Landlord Digital Solutions</title>
+<meta name="description" content="Bhadala is free South African payroll software for Windows: PAYE, UIF and SDL, BCEA-style payslips, rosters, leave, staff loans and EMP201 summaries. By Thee Landlord Digital Solutions.">
+<link rel="canonical" href="https://www.theelandlord.co.za/bhadala/">
+<link rel="icon" type="image/png" href="../images/bhadala/favicon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="Bhadala: Free South African Payroll Software">
+<meta property="og:description" content="PAYE, UIF and SDL payroll, payslips, rosters, leave and staff loans. Free to download for Windows.">
+<meta property="og:url" content="https://www.theelandlord.co.za/bhadala/"><meta property="og:image" content="https://www.theelandlord.co.za/images/bhadala/bhadala-logo.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0a0a0b">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Bhadala","alternateName":"Bhadala South African Payroll Software","applicationCategory":"BusinessApplication","operatingSystem":"Windows","softwareVersion":"0.5.0","description":"South African payroll software for Windows: PAYE, UIF and SDL calculations, payslips, rosters, leave and staff loans.","image":"https://www.theelandlord.co.za/images/bhadala/bhadala-logo.jpg","downloadUrl":"https://github.com/BongaNkala/Bhadala/releases/tag/v0.5.0","offers":{"@type":"Offer","price":"0","priceCurrency":"ZAR"},"author":{"@type":"Organization","name":"Thee Landlord (Pty) Ltd","url":"https://www.theelandlord.co.za/"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0b;--bg2:#101012;--card:#16161a;--line:#2a2a31;--gold:#d4af37;--gold2:#f1d27a;--gold3:#9a7410;--text:#f3f3f1;--mut:#a9a9b2;--font:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;--r:16px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 var(--font);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}:focus-visible{outline:2px solid var(--gold2);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1180px,92%);margin:0 auto}section{padding:96px 0;position:relative}
+header{position:sticky;top:0;z-index:50;background:#0a0a0bd9;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12;padding-top:env(safe-area-inset-top)}
+.bar{display:flex;align-items:center;gap:22px;height:72px}.brand{display:flex;align-items:center;gap:12px;font-weight:700;line-height:1.1}.brand img{height:42px;width:auto;border-radius:6px}.brand small{display:block;font-size:10px;letter-spacing:.18em;color:var(--gold);font-weight:600}
+nav{margin-left:auto;display:flex;gap:22px;align-items:center;font-size:14px;color:var(--mut)}nav a{padding:6px 2px;transition:.2s;white-space:nowrap}header .wrap{width:min(1320px,95%)}.brand span,.brand small{white-space:nowrap}nav a:hover{color:#fff}nav a.on{color:var(--gold2);font-weight:600;border-bottom:2px solid var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:700 15px var(--font);letter-spacing:.04em;padding:15px 28px;border-radius:999px;border:1px solid transparent;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
+.btn-gold{color:#15110a;background:linear-gradient(135deg,#f6dc8c,#d4af37 55%,#a97f12);box-shadow:0 10px 30px #d4af3744,inset 0 1px 0 #fff6}.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 40px #d4af3766}
+.btn-line{color:var(--gold2);border-color:#d4af3766;background:transparent}.btn-line:hover{background:#d4af3716}.btn-sm{padding:10px 20px;font-size:13px}
+.burger{display:none;margin-left:auto;background:none;border:1px solid #ffffff30;color:#fff;border-radius:10px;width:44px;height:44px;font-size:22px;cursor:pointer}
+.hero{padding:70px 0 90px;overflow:hidden;background:radial-gradient(900px 500px at 78% 30%,#d4af3724,transparent 60%),radial-gradient(700px 400px at 10% 100%,#d4af3712,transparent 60%),var(--bg)}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(70% 70% at 60% 40%,#000,transparent);-webkit-mask-image:radial-gradient(70% 70% at 60% 40%,#000,transparent)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;position:relative}
+.eyebrow{display:inline-flex;gap:10px;align-items:center;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold2);border:1px solid #d4af3744;background:#d4af370f;padding:7px 14px;border-radius:999px;font-weight:600}
+h1{font-size:clamp(36px,5.2vw,64px);line-height:1.04;letter-spacing:-.03em;margin:22px 0 18px;font-weight:800}h1 em{font-style:normal;background:linear-gradient(135deg,#f6dc8c,#d4af37 60%,#b8860b);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:18px;color:var(--mut);max-width:560px}.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px;align-items:center}.dlnote{margin-top:14px;font-size:13px;color:var(--mut);letter-spacing:.03em}.dlnote a{color:var(--gold2);text-decoration:underline;text-underline-offset:3px}
+.logoCard{position:relative;border-radius:28px;padding:14px;background:linear-gradient(160deg,#d4af3755,#ffffff10 40%,#d4af3733);box-shadow:0 40px 90px #000a,0 0 120px #d4af3722;animation:fl 7s ease-in-out infinite}.logoCard img{border-radius:20px;width:100%;height:auto}
+@keyframes fl{50%{transform:translateY(-12px)}}
+.stats{border-block:1px solid #ffffff12;background:var(--bg2);padding:26px 0}.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}.stats b{display:block;font-size:22px;color:var(--gold2);letter-spacing:-.01em}.stats span{font-size:13px;color:var(--mut)}
+.kick{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700}h2{font-size:clamp(28px,3.6vw,44px);line-height:1.12;letter-spacing:-.02em;margin:12px 0 14px;font-weight:800}.sub{color:var(--mut);max-width:680px}.head{margin-bottom:46px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:linear-gradient(180deg,#1a1a1f,#131316);border:1px solid var(--line);border-radius:var(--r);padding:24px;transition:transform .25s,border-color .25s,box-shadow .25s}.card:hover{transform:translateY(-5px);border-color:#d4af3788;box-shadow:0 18px 40px #0008,0 0 0 1px #d4af3733}
+.card h3{font-size:16px;margin:16px 0 6px;line-height:1.3}.card p{margin:0;color:var(--mut);font-size:14px}
+.ico{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:13px;background:linear-gradient(145deg,#d4af3730,#d4af3710);border:1px solid #d4af3755;flex:none}.ico svg{width:24px;height:24px;fill:none;stroke:var(--gold2);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.shots{background:var(--bg2)}.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}.tab{background:transparent;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:10px 20px;font:600 14px var(--font);cursor:pointer;transition:.2s}.tab[aria-selected=true]{color:#15110a;background:linear-gradient(135deg,#f6dc8c,#d4af37);border-color:transparent}
+.frame{border-radius:18px;border:1px solid #d4af3744;background:#000;padding:10px;box-shadow:0 30px 80px #000a}.frame img{border-radius:10px;width:100%;height:auto}.frame .dots{display:flex;gap:6px;padding:4px 6px 10px}.dots i{width:10px;height:10px;border-radius:50%;background:#333}.frame.slip img{max-width:640px;margin:auto}.cap{margin-top:14px;font-size:13px;color:var(--mut);text-align:center}
+.panel[hidden]{display:none}
+.bens{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.ben{display:flex;gap:18px;padding:24px;border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,#17171b,#121214)}.ben h3{margin:2px 0 4px;font-size:17px}.ben p{margin:0;color:var(--mut);font-size:15px}.ben:last-child{grid-column:1/-1}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}.step{position:relative;padding:30px 24px 24px;border:1px solid var(--line);border-radius:var(--r);background:var(--card)}.step:before{counter-increment:s;content:counter(s);position:absolute;top:-18px;left:22px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:800;color:#15110a;background:linear-gradient(135deg,#f6dc8c,#d4af37)}.step h3{margin:0 0 6px;font-size:17px}.step p{margin:0;color:var(--mut);font-size:15px}
+.note{margin-top:22px;font-size:14px;color:var(--mut);border-left:3px solid var(--gold);padding:4px 0 4px 16px}
+.trust{background:linear-gradient(180deg,#141416,#0e0e10)}.trust .box{border:1px solid #d4af3744;border-radius:20px;padding:34px;background:#d4af370a;display:flex;gap:22px}.trust p{margin:0;color:#d7d7dc}.trust strong{color:var(--gold2)}
+details{border:1px solid var(--line);border-radius:14px;background:var(--card);margin-bottom:12px;overflow:hidden}summary{cursor:pointer;padding:18px 22px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}summary::-webkit-details-marker{display:none}summary:after{content:"+";color:var(--gold2);font-size:22px;line-height:1}details[open] summary:after{content:"\2212"}details p{margin:0;padding:0 22px 20px;color:var(--mut)}
+.band{text-align:center;background:radial-gradient(700px 300px at 50% 0,#d4af3722,transparent 70%),var(--bg2);border-top:1px solid #ffffff12}.band h2{max-width:760px;margin-inline:auto}.band .sub{margin-inline:auto}.band .cta{justify-content:center}
+footer{padding:36px 0 calc(36px + env(safe-area-inset-bottom));border-top:1px solid #ffffff12;color:var(--mut);font-size:13px}footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}footer b{color:var(--gold2)}
+.mbar{display:none}
+.rv{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease,border-color .25s,box-shadow .25s}.rv.in{opacity:1;transform:none}
+@media(max-width:1280px){.brand small{display:none}}
+@media(max-width:1020px){.grid{grid-template-columns:repeat(2,1fr)}.hero .wrap{grid-template-columns:1fr}.logoCard{max-width:520px;margin:auto}.stats .wrap{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:860px){nav{display:none;position:absolute;top:72px;left:0;right:0;background:#0a0a0bf5;flex-direction:column;align-items:flex-start;padding:18px 6%;gap:6px;border-bottom:1px solid #ffffff18}nav.open{display:flex}nav a{padding:12px 0;width:100%;font-size:16px}.burger{display:block}.bens,.steps{grid-template-columns:1fr}.steps{gap:30px}}
+@media(max-width:640px){section{padding:68px 0}.grid{grid-template-columns:1fr}.btn{width:100%}.cta{flex-direction:column;align-items:stretch}.trust .box{flex-direction:column;padding:24px}
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:#0a0a0bee;backdrop-filter:blur(12px);border-top:1px solid #d4af3744;transform:translateY(110%);transition:transform .3s;display:block}.mbar.on{transform:none}.mbar .btn{padding:13px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+<noscript><style>.rv{opacity:1;transform:none}.panel[hidden]{display:block}</style></noscript>
+</head>
+<body>
+<header><div class="wrap bar">
+ <a class="brand" href="../" aria-label="Thee Landlord home"><img src="../images/logo.jpg" alt="Thee Landlord logo" onerror="this.style.display='none'"><span>Thee Landlord<small>DIGITAL · PROPERTY · CONSTRUCTION</small></span></a>
+ <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+ <nav id="nav"><a href="../#digital">Solutions</a><a href="../#portfolio">Our work</a><a href="../#process">Process</a><a href="../#build">Property &amp; construction</a><a href="../#compliance">Compliance</a><a href="../#about">About</a><a class="on" href="./" aria-current="page">Bhadala Payroll</a><a class="btn btn-gold btn-sm" href="../#contact">Start a project</a></nav>
+</div></header>
+
+<main>
+<section class="hero" id="top"><div class="wrap">
+ <div>
+  <span class="eyebrow">A product of Thee Landlord Digital Solutions</span>
+  <h1>Smart payroll.<br><em>Simplified</em> for South African businesses.</h1>
+  <p class="lead"><strong style="color:#fff">Bhadala</strong> is a Windows-based South African payroll solution designed to simplify employee payroll administration. It helps businesses manage salaries, statutory payroll calculations, employee records, leave, overtime and payroll reporting.</p>
+  <div class="cta">
+   <a class="btn btn-gold" id="dl" data-dl href="https://github.com/BongaNkala/Bhadala/releases/tag/v0.5.0" target="_blank" rel="noopener">&#11015; DOWNLOAD BHADALA FREE</a>
+   <a class="btn btn-line" href="#features">Explore features</a>
+  </div>
+  <p class="dlnote"><span id="dlLabel">Version 0.5.0 | Free Download | Windows</span><span id="dlDirectWrap" hidden> &middot; <a id="dlDirect" href="#" rel="noopener">Direct installer download</a></span></p>
+ </div>
+ <div class="logoCard"><img src="../images/bhadala/bhadala-logo.jpg" width="900" height="779" alt="Bhadala logo: a gold shield with rising arrows. South African Payroll Software, a product of Thee Landlord (Pty) Ltd Digital Solutions" fetchpriority="high"></div>
+</div></section>
+
+<div class="stats"><div class="wrap"><div><b>PAYE · UIF · SDL</b><span>South African payroll calculations</span></div><div><b>Weekly to monthly</b><span>Pay cycles supported</span></div><div><b>A4 payslips + PDF</b><span>BCEA-style layout</span></div><div><b>Local data</b><span>Stays on your computer</span></div></div></div>
+
+<section id="features"><div class="wrap">
+ <div class="head rv"><span class="kick">Features</span><h2>Everything payroll needs, in one app</h2><p class="sub">From payslips to EMP201 summaries, Bhadala covers the day-to-day work of running payroll for your team.</p></div>
+ <div class="grid"><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span><h3>Monthly, fortnightly and weekly payroll</h3><p>Run payroll on the pay cycle that suits your business.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h2M14 10h2M8 14h2M14 14h2M8 18h2M14 18h2"/></svg></span><h3>PAYE, UIF and SDL calculations</h3><p>Statutory deductions calculated from your configured tax tables.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></span><h3>Professional BCEA-style A4 payslips</h3><p>Earnings, deductions, employer contributions and net pay on one clear page.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg></span><h3>Payslip PDF export</h3><p>Save payslips as PDF files ready to share.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-9M15 6h6v6"/></svg></span><h3>Year-to-date payroll totals</h3><p>Gross, PAYE, UIF and net pay accumulated across the tax year.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></span><h3>Weekly rosters and shift management</h3><p>Plan who works when, with colour-coded shifts and weekly hours.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>Overtime tracking and payroll integration</h3><p>Hours over 45 a week are flagged and imported into payroll.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg></span><h3>Employee leave balances</h3><p>See entitlement, leave taken and balance for every employee.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/></svg></span><h3>Staff loan tracking and repayments</h3><p>Record staff loans and deduct repayments automatically.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M8 16v-5M13 16V7M18 16v-8"/></svg></span><h3>EMP201 summaries</h3><p>Monthly PAYE, UIF and SDL totals for your EMP201 return.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/></svg></span><h3>Tax-certificate summaries</h3><p>Yearly totals per employee for your IRP5 and IT3(a) figures.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v8M9 10v8M15 10v8M19 10v8M3 21h18"/></svg></span><h3>Bank payment CSV exports</h3><p>Export net pay and bank details as a CSV file for your bank.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg></span><h3>Automatic safety backups</h3><p>A safety copy is kept every time your data is saved.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5M12 8v4l3 2"/></svg></span><h3>Manual backup and restore</h3><p>Export a backup file and restore it whenever you need.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c.5-1.5 1.7-2 3-2s2.5.5 3 2M14 10h4M14 14h4"/></svg></span><h3>South African ID number validation</h3><p>Checks the ID number and fills in the date of birth.</p></article><article class="card rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></span><h3>Editable tax tables, 2026/27 defaults</h3><p>Update brackets, rebates and UIF limits when SARS changes them.</p></article></div>
+</div></section>
+
+<section class="shots" id="screens"><div class="wrap">
+ <div class="head rv"><span class="kick">See it in action</span><h2>A clean, professional workspace</h2><p class="sub">Screenshots show sample data only.</p></div>
+ <div class="tabs" role="tablist" aria-label="Screenshots">
+  <button class="tab" role="tab" aria-selected="true" data-p="p1">Dashboard</button><button class="tab" role="tab" aria-selected="false" data-p="p2">Roster &amp; shifts</button><button class="tab" role="tab" aria-selected="false" data-p="p3">Payslip</button></div>
+ <div class="panel rv" id="p1"><div class="frame"><div class="dots"><i></i><i></i><i></i></div><img src="../images/bhadala/shot-dash.jpg" width="1400" height="875" loading="lazy" alt="Bhadala dashboard showing employee count, on-shift today, last net pay and a payroll trend chart"></div></div>
+ <div class="panel" id="p2" hidden><div class="frame"><div class="dots"><i></i><i></i><i></i></div><img src="../images/bhadala/shot-roster.jpg" width="1400" height="875" loading="lazy" alt="Bhadala weekly roster with colour-coded shifts and overtime flagged"></div></div>
+ <div class="panel" id="p3" hidden><div class="frame slip"><div class="dots"><i></i><i></i><i></i></div><img src="../images/bhadala/shot-slip.jpg" width="840" height="900" loading="lazy" alt="Bhadala A4 payslip with earnings, deductions, employer contributions and year-to-date totals"></div></div>
+</div></section>
+
+<section id="why"><div class="wrap">
+ <div class="head rv"><span class="kick">Benefits</span><h2>Why choose Bhadala?</h2></div>
+ <div class="bens"><article class="ben rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg></span><div><h3>Designed for South Africa</h3><p>Payroll functionality focused on South African PAYE, UIF and SDL requirements.</p></div></article><article class="ben rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><div><h3>Your data stays with you</h3><p>Bhadala stores payroll data locally on your computer.</p></div></article><article class="ben rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l10 6-10 6L2 8zM2 14l10 6 10-6"/></svg></span><div><h3>Simplified payroll administration</h3><p>Manage employee salaries, shifts, leave and staff loans in one application.</p></div></article><article class="ben rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18M7 14l4-4 3 3 5-6"/></svg></span><div><h3>Payroll reporting</h3><p>Generate payroll summaries, EMP201 information, tax-certificate summaries and bank payment files.</p></div></article><article class="ben rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg></span><div><h3>Backup and restore</h3><p>Protect your payroll records with backup and restore functionality.</p></div></article></div>
+</div></section>
+
+<section class="shots" id="download"><div class="wrap">
+ <div class="head rv"><span class="kick">Get started</span><h2>How to download</h2><p class="sub">Three simple steps. No sign-up and no payment.</p></div>
+ <div class="steps">
+  <div class="step rv"><h3>Click download</h3><p>Click <strong>DOWNLOAD BHADALA FREE</strong>.</p></div>
+  <div class="step rv"><h3>Get the Windows release</h3><p>Open the GitHub release page and download the available Windows release asset.</p></div>
+  <div class="step rv"><h3>Install</h3><p>Follow the installation instructions supplied with the release.</p></div>
+ </div>
+ <p class="note rv">Windows may show a SmartScreen warning because the installer is not yet code-signed. If you downloaded it from the official release page, choose <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+ <div class="cta rv" style="margin-top:34px"><a class="btn btn-gold" data-dl href="https://github.com/BongaNkala/Bhadala/releases/tag/v0.5.0" target="_blank" rel="noopener">&#11015; DOWNLOAD BHADALA FREE</a></div>
+</div></section>
+
+<section class="trust"><div class="wrap"><div class="box rv"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg></span><p><strong>Trust and transparency.</strong> Bhadala is developed and distributed by Thee Landlord (Pty) Ltd &ndash; Digital Solutions. Payroll calculations use the application&rsquo;s configured tax tables. Users should verify applicable tax rates and statutory obligations against current SARS requirements and applicable South African legislation. Bhadala is not SARS-certified, SARS-approved or endorsed by SARS.</p></div></div></section>
+
+<section id="faq"><div class="wrap" style="max-width:860px">
+ <div class="head rv"><span class="kick">FAQ</span><h2>Good questions</h2></div><details class="rv"><summary>Is Bhadala really free?</summary><p>Yes. Bhadala is free to download and use. It remains the property of Thee Landlord (Pty) Ltd, and the licence terms are published with each release.</p></details><details class="rv"><summary>Where is my payroll data stored?</summary><p>On your own computer. Bhadala keeps payroll data locally and does not upload it to our servers.</p></details><details class="rv"><summary>Which tax year does it support?</summary><p>Bhadala ships with 2026/27 tax table defaults. The tables are editable, so you can update brackets, rebates and limits when SARS changes them.</p></details><details class="rv"><summary>Does Bhadala submit returns to SARS?</summary><p>No. Bhadala prepares payroll figures, payslips and summaries. You are responsible for submitting your returns to SARS and verifying all rates and obligations.</p></details><details class="rv"><summary>Can I run several companies?</summary><p>Not yet. Bhadala currently handles one company at a time.</p></details><details class="rv"><summary>What do I need to run it?</summary><p>Bhadala is a Windows desktop application. Download the installer from the GitHub release page and follow the instructions supplied with the release.</p></details><details class="rv"><summary>Can you build custom software for my business?</summary><p>Yes. Thee Landlord Digital Solutions builds websites, web applications and business software. Get in touch through our contact section.</p></details>
+</div></section>
+
+<section class="band"><div class="wrap rv">
+ <span class="kick">Thee Landlord Digital Solutions</span><h2>Need software built for your business?</h2>
+ <p class="sub">Bhadala is one of the products we have designed and built. We create websites, web applications and business software for real businesses.</p>
+ <div class="cta"><a class="btn btn-gold" href="../#contact">Start a digital project</a><a class="btn btn-line" href="mailto:info@theelandlord.co.za">info@theelandlord.co.za</a></div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><div><b>Thee Landlord (Pty) Ltd</b> &middot; Reg. 2019/287364/07</div><div>Building Properties. Building Businesses. Building Digital Solutions.</div><div>&copy; 2026 Thee Landlord (Pty) Ltd. Bhadala is a product of Thee Landlord Digital Solutions.</div></div></footer>
+
+<div class="mbar" id="mbar"><a class="btn btn-gold" data-dl href="https://github.com/BongaNkala/Bhadala/releases/tag/v0.5.0" target="_blank" rel="noopener">&#11015; DOWNLOAD BHADALA FREE</a></div>
+
+<script>
+(function(){
+var OWNER='BongaNkala',REPO='Bhadala',TAG='v0.5.0';
+var burger=document.getElementById('burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',function(){var o=nav.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
+nav.addEventListener('click',function(e){if(e.target.tagName==='A')nav.classList.remove('open')});
+var tabs=document.querySelectorAll('.tab');tabs.forEach(function(t){t.addEventListener('click',function(){tabs.forEach(function(x){x.setAttribute('aria-selected',x===t)});document.querySelectorAll('.panel').forEach(function(p){p.hidden=p.id!==t.dataset.p;if(!p.hidden)p.classList.add('in')})})});
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(el){io.observe(el)})}else{document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in')})}
+var mbar=document.getElementById('mbar');function sc(){mbar.classList.toggle('on',window.scrollY>520)}window.addEventListener('scroll',sc,{passive:true});sc();
+document.querySelectorAll('[data-dl]').forEach(function(a){a.addEventListener('click',function(){if(window.gtag)gtag('event','download_click',{product:'Bhadala'})})});
+/* Reads the real release from GitHub. If it is unavailable, the page keeps the static link and label. */
+fetch('https://api.github.com/repos/'+OWNER+'/'+REPO+'/releases/tags/'+TAG,{headers:{Accept:'application/vnd.github+json'}}).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(rel){
+ var a=(rel.assets||[]).filter(function(x){return /\.exe$/i.test(x.name)})[0];
+ var v=(rel.tag_name||TAG).replace(/^v/,'');
+ if(a){var mb=Math.round(a.size/1048576);document.getElementById('dlLabel').textContent='Version '+v+' | Free Download | Windows | '+mb+' MB';var d=document.getElementById('dlDirect');d.href=a.browser_download_url;document.getElementById('dlDirectWrap').hidden=false}
+ else{document.getElementById('dlLabel').textContent='Version '+v+' | Free Download | Windows'}
+}).catch(function(){});
+})();
+</script>
+</body>
+</html>

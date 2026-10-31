@@ -1,0 +1,42 @@
+BHADALA FREE SOFTWARE LICENCE (DRAFT)
+Copyright (c) 2026 Thee Landlord (Pty) Ltd, Reg. 2019/287364/07. All rights reserved.
+
+DRAFT NOTICE: This is a starting draft for discussion. Have an attorney review and
+finalise it before you publish it with a release.
+
+1. OWNERSHIP
+Bhadala, including its source code, design, logos and documentation (together "the Software"), is and remains the property of Thee Landlord (Pty) Ltd ("the Company"). Nothing in this licence transfers ownership. "Bhadala" and the Bhadala logo are brands of the Company.
+
+2. GRANT OF LICENCE
+The Company grants you a free, non-exclusive, non-transferable licence to download, install and use the Software on your own computers for your own internal business or personal payroll purposes.
+
+3. RESTRICTIONS
+You may not, without the Company's prior written permission:
+(a) sell, rent, lease, sublicense or charge for the Software;
+(b) redistribute the Software or host it for download elsewhere, except by linking to the official release page;
+(c) modify the Software, or create derivative works, other than for your own internal use;
+(d) remove or alter copyright notices, logos or branding;
+(e) present the Software as your own product, or as certified or approved by the South African Revenue Service (SARS) or any other authority.
+
+4. YOUR DATA
+The Software stores payroll data locally on your computer. The Company does not receive or have access to that data. You are responsible for keeping backups and for protecting personal information in line with the Protection of Personal Information Act 4 of 2013.
+
+5. TAX AND LEGAL COMPLIANCE
+Calculations use tax tables that you can edit. You are responsible for verifying tax rates, rebates, limits and all statutory obligations against current SARS requirements and South African legislation, and for submitting all returns. The Software does not submit anything to SARS and is not SARS-certified.
+
+6. NO WARRANTY
+The Software is provided "as is" without warranty of any kind, express or implied, including fitness for a particular purpose, accuracy or uninterrupted operation, to the fullest extent permitted by law.
+
+7. LIMITATION OF LIABILITY
+To the fullest extent permitted by law, the Company is not liable for any loss, penalty, interest or damage arising from the use of, or inability to use, the Software, including errors in payroll calculations.
+
+8. UPDATES AND SUPPORT
+The Company may release updates but is not obliged to provide updates or support.
+
+9. TERMINATION
+This licence ends automatically if you breach it. On termination you must stop using the Software and delete your copies.
+
+10. GOVERNING LAW
+This licence is governed by the laws of the Republic of South Africa.
+
+Contact: info@theelandlord.co.za

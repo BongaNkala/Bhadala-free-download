@@ -1,0 +1,31 @@
+HOW TO PUT BHADALA ON theelandlord.co.za  (no extra hosting needed)
+
+What this adds: one static page plus images. It runs on the hosting you already pay for.
+The 78 MB installer is NOT stored on your hosting. It is served free by GitHub Releases,
+so it uses none of your hosting space or bandwidth.
+
+FILES IN THIS PACKAGE
+  bhadala/index.html              the product page  ->  https://www.theelandlord.co.za/bhadala/
+  images/bhadala/*                logo, icon and screenshots used by the page
+  homepage-promo-card.html        promotional section for the home page
+  nav-snippet.html                the "Bhadala Payroll" menu link
+  LICENSE.txt                     draft licence to publish with the GitHub release (have it reviewed)
+
+STEPS
+1. Upload the "bhadala" folder and the "images/bhadala" folder to your site's root (public_html),
+   next to your existing index.html and images folder. Use cPanel File Manager, FTP, or commit them
+   to your website repository if the site deploys from GitHub.
+2. Open index.html. Add the link from nav-snippet.html to the main menu.
+3. Paste homepage-promo-card.html between the "Software that helps you operate better" section and
+   the "Our work" section.
+4. Add the page to sitemap.xml:  https://www.theelandlord.co.za/bhadala/
+5. Upload LICENSE.txt to the Bhadala GitHub repository (add it as a file named LICENSE) and attach the
+   installer to the v0.5.0 release.
+
+BEFORE YOU ANNOUNCE IT, TEST
+  - Open /bhadala/ on a phone and a laptop. Every menu link should return to the right section.
+  - Click DOWNLOAD BHADALA FREE. It should open the v0.5.0 release page in a new tab.
+  - The release must contain the installer file (Bhadala-Setup-0.5.0.exe). When it does, the page
+    automatically shows a "Direct installer download" link and the file size. If the release has no
+    installer yet, the page keeps showing only the release-page button.
+  - If the tag or repository changes, edit OWNER, REPO and TAG at the top of the script in bhadala/index.html.
